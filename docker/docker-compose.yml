@@ -5,4 +5,4 @@ services:
     image: demo:v1.0.0   # 修正为 image
     container_name: demo
     ports:
-      - 8888:8080
+      - 8888:4567

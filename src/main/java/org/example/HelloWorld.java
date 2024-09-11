@@ -1,8 +1,19 @@
+//
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by FernFlower decompiler)
+//
+
 package org.example;
-import static spark.Spark.*;
+
+import spark.Spark;
 
 public class HelloWorld {
-    public static void main(String[] arg){
-        get("/hello", (request, response) -> "Hello Wwwwwwwwwwwwwwwwwwwwwwwworld!");
+    public HelloWorld() {
+    }
+
+    public static void main(String[] arg) {
+        Spark.get("/hello", (request, response) -> {
+            return "Hello Wwwwwwwwwwwwwwwwwwwwwwwworld!";
+        });
     }
 }

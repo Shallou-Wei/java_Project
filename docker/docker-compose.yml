@@ -2,7 +2,7 @@ version: '3.1'
 services:
   demo:
     build: ./
-    images: demo:v1.0.0
+    image: demo:v1.0.0   # 修正为 image
     container_name: demo
     ports:
       - 8888:8080

@@ -44,6 +44,9 @@
                             <mainClass>org.example.HelloWorld</mainClass>
                         </manifest>
                     </archive>
+                    <descriptorRefs>
+                        <descriptorRef>1</descriptorRef>
+                    </descriptorRefs>
                     <finalName>demo</finalName>
                 </configuration>
                 <executions>

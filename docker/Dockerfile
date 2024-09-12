@@ -10,6 +10,6 @@ RUN mvn clean package -DskipTests
 FROM openjdk:8-jre-slim
 WORKDIR /app
 # 从构建阶段拷贝编译后的 jar 文件
-COPY --from=builder /app/target/demo.jar .
+COPY --from=builder /app/target/my_java_project-1.0-SNAPSHOT-jar-with-dependencies.jar .
 # 运行 Java 应用
-CMD ["java", "-jar", "demo.jar"]
+CMD ["java", "-jar", "my_java_project-1.0-SNAPSHOT-jar-with-dependencies.jar.jar"]

@@ -44,9 +44,6 @@
                             <mainClass>org.example.HelloWorld</mainClass>
                         </manifest>
                     </archive>
-                    <descriptorRefs>
-                        <descriptorRef>jar-with-dependencies</descriptorRef>
-                    </descriptorRefs>
                     <finalName>demo</finalName>
                 </configuration>
                 <executions>

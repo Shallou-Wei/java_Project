@@ -45,9 +45,8 @@
                         </manifest>
                     </archive>
                     <descriptorRefs>
-                        <descriptorRef>1</descriptorRef>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
                     </descriptorRefs>
-                    <finalName>demo</finalName>
                 </configuration>
                 <executions>
                     <execution>
